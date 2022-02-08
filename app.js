@@ -1,8 +1,9 @@
-// import functions and grab DOM elements
+import { states } from './states-data.js';
+import { renderState } from './utils.js';
 
-// let state
+const statesList = document.getElementById('states');
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+for (let state of states) {
+    const div = renderState(state);
+    statesList.append(div);
+}
