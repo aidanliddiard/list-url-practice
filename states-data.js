@@ -1,5 +1,6 @@
 export const states = [
     {
+        id: 1,
         name: 'Oregon',
         animal: 'American beaver',
         flower: 'Oregon-grape',
@@ -7,6 +8,7 @@ export const states = [
         Tree: 'Douglas-fir',
     },
     {
+        id: 2,
         name: 'Maine',
         animal: 'Moose',
         flower: 'White Pine Cone',
@@ -14,6 +16,7 @@ export const states = [
         Tree: 'White Pine',
     },
     {
+        id: 3,
         name: 'Washington',
         animal: 'Olympic Marmot',
         flower: 'Pacific rhododendron',
@@ -21,6 +24,7 @@ export const states = [
         Tree: 'Western hemlock',
     },
     {
+        id: 4,
         name: 'Colorado',
         animal: 'Rocky Mountain Bighorn Sheep',
         flower: 'Rocky Mountain Columbine',
