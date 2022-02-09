@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body {
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+}
+
 .container {  
     display: grid;
     grid-template-columns: 0.2fr 1.8fr 1.8fr 0.2fr;
