@@ -4,17 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="/states/style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1></h1>
-    <h3 id="name"></h3>
-    <ul>
-        <li id="flower"></li>
-        <li id="animal"></li>
-        <li id="fruit"></li>
-        <li id="tree"></li>
-        <script src="states.js" type="module"></script>
-    </ul>
+    <!-- <div class="states" id="states">
+    </div> -->
+    <div class="container">
+        <div class="State">
+            <h1>Oregon</h1>
+            <a href="/">Back</a>
+        </div>
+        <div class="flower">
+            <img class="img" src="../assets/francesco-ungaro-cHVKmOwd0A8-unsplash.jpg">
+            <p>State Animal: American beaver</p>
+        </div>
+        <div class="Animal">
+            <img class="img" src="../assets/oregon-state-flower-gcdc3b0078_1920.jpg">
+            <p>State Flower: Oregon Grape</p>
+        </div>
+        <div class="fruit">
+            <p>State Fruit: Pear</p>
+        </div>
+        <div class="tree">
+            <p>State Tree: Douglas-fir</p>
+        </div>
+    </div>
 </body>
+<script type="module" src="./states.js"></script>
 </html>
