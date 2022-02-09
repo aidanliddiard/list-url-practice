@@ -1,8 +1,12 @@
-// import functions and grab DOM elements
+import { states } from './states-data.js';
+import { renderStateImg } from './render.js';
 
-// let state
+const statesList = document.getElementById('states');
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+for (let state of states) {
+    const div = renderStateImg(state);
+    const a = document.createElement('a');
+    a.href = `/states/?id=${state.id}`;
+    a.append(div);
+    statesList.append(a);
+}
